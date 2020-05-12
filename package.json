@@ -4,9 +4,9 @@
   "description": "AfterWerk Toronto",
   "main": "src/index.js",
   "scripts": {
-    "start": "budo demo/demo.js:bundle.js --live",
-    "build":"browserify demo/demo.js > bundle.js",
-    "dist":"browserify dist/demo.js | uglifyjs -cm > bundle.js",
+    "start": "budo demo/demo.js:bundle.js --live --open",
+    "build": "browserify demo/demo.js > bundle.js",
+    "dist": "browserify dist/demo.js | uglifyjs -cm > bundle.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
